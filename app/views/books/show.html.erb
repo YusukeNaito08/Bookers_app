@@ -1,0 +1,6 @@
+<p>Title:</p>
+<span><%= @book.title %></sapn>
+<p>Body:</p>
+<span><%= @book.body %></span>
+<%= link_to('Edit', "/books/#{@book.id}/edit") %>
+<%= link_to('Back', '/books') %>
